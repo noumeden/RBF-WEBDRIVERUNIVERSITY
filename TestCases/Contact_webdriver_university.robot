@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-#Resource    ../Resources/LoginKeyword.robot
+Resource    ../Resources/CommoonKeyword.robot
 Resource    ../Resources/Home_pages.robot
 Resource    ../Resources/ContactKeyword.robot
 

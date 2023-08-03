@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ./LoginKeyword.robot
+Resource    ./CommoonKeyword.robot
 
 *** Variables ***
 ${BASE_URL}     http://www.webdriveruniversity.com/
