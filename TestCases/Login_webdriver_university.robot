@@ -2,6 +2,7 @@
 Library     SeleniumLibrary
 Resource    ../Resources/LoginKeyword.robot
 Resource    ../Resources/Home_pages.robot
+Resource    ../Resources/CommoonKeyword.robot
 
 *** Variables ***
 ${browser_type}     Chrome
