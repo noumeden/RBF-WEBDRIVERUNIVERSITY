@@ -39,6 +39,14 @@ Click On Login Button
     Wait Until Element Is Visible       ${btn_login_login}
     Element Should Be Enabled        ${btn_login_login}
     Click Element    ${btn_login_login}
-    Handle Alert        accept
+
+Alert Message
+    [Arguments]    ${alert_message}
+    ${message}=     Handle Alert    accept
+     Should Be Equal     ${message}      ${alert_message}
 
 
+
+Login Should Have Failed
+    Alert Message
+    Should Be Equal     ${fail_alert_login_message}     ${message_alert}
