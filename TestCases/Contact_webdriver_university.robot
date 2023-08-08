@@ -24,4 +24,15 @@ Contact US Webdriveruniversity
     Enter Comments      ${commentaire}
     Click Submit Button
     Validate Message        ${message_sucess}
+    Close My Browser
+Reset button to clear login fields
+    Open Home Page
+    Click On Contact Us Button
+    Switch Window    New
+    Enter Firstname    ${first_name}
+    Enter Lastname     ${last_name}
+    Enter Email        ${Email}
+    Enter Comments      ${commentaire}
+    Click Reset Button
+    Close My Browser
 
